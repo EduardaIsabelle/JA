@@ -1,0 +1,101 @@
+html, body{
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style:none;
+    max-width: 0px;
+}
+li:hover{
+    background-color: #27a7e5;
+}
+li{
+    float: left;
+    padding: 10 5 10 5;
+}
+#imagem_fundo{
+    background: url(ods1.3.jpg);
+    height: 100%;
+    text-align: center;
+}
+#titulo{
+    padding-top: 20%;
+    font-size: 40px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+#subtitulo{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#acao{
+    color: black;
+    border:5px black solid;
+    padding: 15px 05px 15px 05px;
+    padding: 08px;
+}
+#icone{
+    width: 51px;
+}
+#selecao{ 
+    background-color: #d4d4d4;
+    padding: 20px;
+}
+#comeco{
+    padding: 20px;
+}
+#feito{
+    padding: 20px;
+}
+.imgfeito{
+    width: 200px;
+}
+a {
+    text-decoration: none;
+    margin: 20px;
+} 
+.artigo-1{
+    margin: 50px;
+}
+.artigo-2{
+    margin: 50px;
+}
+.artigo-3{
+    margin: 50px;
+}
+.artigo-4{
+    margin: 50px;
+    padding-right: 15px;
+}
+.texto{
+    margin-left: 20px;
+    font-size: 20x;
+    margin: 10px;
+}
+.coluna{
+    float: left;
+    padding:0 5%;
+    position: relative;
+    width: 40%;
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+.meio {
+    padding: left 50;px;
+}
+footer{
+    background-color: #27a7e5;
+    width: 100%;
+}
